@@ -1,0 +1,78 @@
+div{
+
+    font-family: 'Germania One', cursive;
+}
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float: right;
+}
+.display{
+    display:block;
+}
+.displayLine{
+    display:inline-block;
+}
+
+.bkgcolor{
+    background-color: #808080
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+h1{
+    font-family: 'Germania One', cursive;
+    color: white;
+}
+a{
+    width: 25%;
+    font-family: 'Germania One', cursive;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+a:nth-child(1){
+    background-color: grey;
+    color: aliceblue;
+}
+
+footer{
+    border: black;
+    position: relative;
+    clear:both;
+    display:block;
+    height: 100px;
+    width: 100%;
+    background-image: url("https://goo.gl/9FvVxK") ;
+    background-size: 200px, 100px;
+    background-repeat: repeat-x;
+} 
+h4{
+     text-align: center; 
+     height: 100px;
+     font-size: 22px;
+
+}
+aside{
+    width: 30%;
+     float: left; 
+}
+main{
+    width:70%;
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  p{
+      clear:left;
+      position: relative;
+      margin-left: 100px;
+
+  }
