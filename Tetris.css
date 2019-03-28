@@ -1,0 +1,37 @@
+div{
+    height:10vw;
+    width:10vw;
+    float: left;
+    border: 2px solid black;
+    border-color: black;
+}
+div[class]{
+    box-shadow: grey;
+}
+body{
+    margin: 0;
+}
+.blue{
+    background-color: #2045F6;
+}
+.floatLeft{
+    float: left;
+}
+.container{
+    float: left;
+}
+.top{
+    height: calc(10vw - 1vx);
+}
+.bottom{
+    border-bottom: 1px solid black;
+}
+.right{
+    border-right: solid black;
+}
+.left{
+    border-left: solid black;
+}
+.top{
+    border-top: solid black;
+}
